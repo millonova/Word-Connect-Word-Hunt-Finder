@@ -23,6 +23,37 @@ A complete, high-performance modular computer vision and algorithm suite that so
 
 ---
 
+## 🎯 Where to Place the Sniper ROI (Alignment Guide)
+
+To achieve 100% OCR detection accuracy, the **Sniper ROI** bounding box must be aligned snugly over the **4x4 letter tiles grid** as demonstrated below:
+
+<p align="center">
+  <img src="assets/sniper_roi_guide.png" alt="Word Hunt Sniper ROI Placement Guide" width="520" />
+</p>
+
+### 📐 Step-by-Step Positioning Instructions
+
+1. **Launch the Overlay**:
+   * Open the app (`python app_gui.py` or `python main.py`) and toggle the **Sniper Overlay**.
+   * A translucent green resizable frame with cyan corner brackets will appear on your screen.
+
+2. **Drag & Resize Over the 4x4 Grid**:
+   * **Top Edge**: Align directly along the top border of the top-row tiles (`Row 1`).
+   * **Bottom Edge**: Align flush against the bottom border of the bottom-row tiles (`Row 4`).
+   * **Left Edge**: Align flush against the left border of the leftmost column (`Column 1`).
+   * **Right Edge**: Align flush against the right border of the rightmost column (`Column 4`).
+
+3. **Verify the Proportions**:
+   * Keep the box roughly square (1:1 aspect ratio), matching the game board's square layout (e.g., `~940x940 px` as displayed in the overlay badge `SNIPER ROI: 940x939`).
+   * All **16 letter tiles** must sit comfortably inside the cyan corner brackets.
+
+4. **Tips for Best Accuracy**:
+   * ✅ **Do**: Enclose all 16 tiles fully so every letter character is clearly visible.
+   * ❌ **Don't**: Include extraneous game UI (such as score counters, timers, or outer menus) inside the box.
+   * ❌ **Don't**: Crop into the tiles—cutting off edges of letters will cause OCR misclassification.
+
+---
+
 ## Directory Structure
 ```
 word_connect/

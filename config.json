@@ -2,8 +2,8 @@
   "always_on_top": false,
   "overlay_always_on_top": true,
   "main_window": {
-    "x": 1475,
-    "y": 189,
+    "x": 905,
+    "y": 335,
     "width": 1434,
     "height": 934
   },
@@ -17,5 +17,5 @@
   "tesseract_path": "",
   "confidence_threshold": 0.6,
   "inset_crop_ratio": 0.22,
-  "overlay_visible": false
+  "overlay_visible": true
 }
