@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller / Nuitka Build and Distribution
+build/
+dist/
+build_venv/
+*.spec
+*.zip
+*.tar.gz
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Testing & Logs
+.pytest_cache/
+*.log
+
+# Editor & OS artifacts
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
