@@ -23,7 +23,7 @@ A complete, high-performance modular computer vision and algorithm suite that so
 
 ---
 
-## 🎯 Where to Place the Sniper ROI (Alignment Guide)
+## Where to Place the Sniper ROI (Alignment Guide)
 
 To achieve 100% OCR detection accuracy, the **Sniper ROI** bounding box must be aligned snugly over the **4x4 letter tiles grid** as demonstrated below:
 
@@ -31,7 +31,7 @@ To achieve 100% OCR detection accuracy, the **Sniper ROI** bounding box must be 
   <img src="assets/sniper_roi_guide.png" alt="Word Hunt Sniper ROI Placement Guide" width="520" />
 </p>
 
-### 📐 Step-by-Step Positioning Instructions
+### Step-by-Step Positioning Instructions
 
 1. **Launch the Overlay**:
    * Open the app (`python app_gui.py` or `python main.py`) and toggle the **Sniper Overlay**.
@@ -124,7 +124,7 @@ WINE: [(0, 0), (0, 1), (1, 1), (1, 2)]
 
 ---
 
-## 📦 Standalone Windows Distribution & Antivirus Information
+## Standalone Windows Distribution & Antivirus Information
 
 ### Portable Folder Architecture (`--onedir`)
 The standalone Windows distribution is built as a clean portable directory (`dist/WordHuntSolver/`) rather than a single self-extracting archive (`--onefile`):
@@ -151,7 +151,7 @@ Get-FileHash -Algorithm SHA256 .\WordHuntSolver-v1.0-windows-x64.zip
 
 ---
 
-## 🛠️ Compilation Pipelines
+## Compilation Pipelines
 
 We provide multiple build pipelines to fit your deployment environment:
 
@@ -175,7 +175,7 @@ Uninstalls generic pre-compiled PyPI wheel bootloaders and rebuilds the bootload
 
 ---
 
-## 🖥️ Launching the PyQt6 GUI App
+## Launching the PyQt6 GUI App
 
 To launch the interactive GUI with live screen overlay and auto-detection:
 ```powershell
@@ -184,7 +184,7 @@ python app_gui.py
 
 ---
 
-## 🛡️ License
+## License
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details. Free for personal, educational, and open-source use.
 
